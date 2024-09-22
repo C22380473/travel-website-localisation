@@ -23,9 +23,8 @@ The content was sourced from [Discover Ireland](https://www.discoverireland.ie/i
 
 ## Instructions to Run the Project
 
-1. **Clone the Repository**
+1. **Download the app folder from the repository. Create a new folder called website and move the app folder inside it. Then, open Terminal and navigate to the website directory**
    ```bash
-   git clone https://github.com/C22380473/travel-website-translation-app/
    cd website
 2. **Set Up a Virtual Environment**
    ```bash
@@ -40,7 +39,7 @@ The content was sourced from [Discover Ireland](https://www.discoverireland.ie/i
    ```bash
    pip install flask
    pip install flask-babel
-5. **Access the Application** (Make sure you are in the project root not inside the app folder)
+5. **Access the Application** (Make sure you are in the website folder not inside the app folder!)
 - Open your web browser and go to http://127.0.0.1:5000 to view the app.
 
    
