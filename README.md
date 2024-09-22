@@ -20,3 +20,27 @@ The content was sourced from [Discover Ireland](https://www.discoverireland.ie/i
 - CSS
 - JavaScript
 - Flask (for translation)
+
+## Instructions to Run the Project
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/C22380473/travel-website-translation-app/
+   cd website
+2. **Set Up a Virtual Environment**
+   ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate  # For macOS/Linux
+    # .\.venv\Scripts\activate   # For Windows
+3. **Install Dependencies**
+   ```bash
+   pip install flask
+   pip install flask-babel
+4. **Run the Application** (Make sure you are in the project root not inside the app folder)
+   ```bash
+   pip install flask
+   pip install flask-babel
+5. **Access the Application** (Make sure you are in the project root not inside the app folder)
+- Open your web browser and go to http://127.0.0.1:5000 to view the app.
+
+   
