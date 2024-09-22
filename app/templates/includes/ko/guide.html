@@ -1,0 +1,145 @@
+<section class="page-section cta2" id="guide">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 bg-faded">
+                <div class="intro-text left-0 text-center p-5 d-flex me-auto">
+                    <div class="bg-faded p-1 rounded">
+                        <h2 class="mb-4 section-heading"> <span class="section-heading-upper">{{_('Plan Your Trip')}}</span>
+                        </h2>
+                        <h4 class="mb-4"> <span class="section-heading-upper">{{_('Dive into Irish Culture')}}</span></h4>
+                        <p class="mb-1">{{_('Enjoy the peace and serenity of Ireland\'s Hidden Heartlands on a visit to this spellbinding region.')}}</p><br>
+                        <p class="mb-1">{{_('From pretty forest trails to beautiful glass-like lakes, check out the top experiences and things to do.')}}</p><br><a
+                            href="https://www.discoverireland.ie/irelands-hidden-heartlands/things-to-do"
+                            class="btn btn-primary">{{_('Discover More...')}}</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Carousel on the right side -->
+                <h2 class="mb-4 section-heading p-4"> <span class="section-heading-upper text-center">{{_('Choose Your Tour Package')}}</span></h2>
+                <div id="carouselExampleControls8" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img src="{{ url_for('static', filename='assets/img/header-lough-gur-limerick.jpg') }}"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <a class="link-dark">
+                                                <h5 class="card-title">{{_('Guided Tour Packages')}}</h5>
+                                            </a>
+                                            <p class="card-text"><b>{{_('Tours In Korean Available!')}}</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img src="{{ url_for('static', filename='assets/img/ko/header-soulkite-sup-killaloe-lough-derg copy.jpg') }}"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <a class="link-dark">
+                                                <h5 class="card-title">{{_('Family Adventure Packages')}}</h5>
+                                            </a>
+                                            <p class="card-text"><b>{{_('Guaranteed Family Fun!')}}</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img src="{{ url_for('static', filename='assets/img/header-foodie-experiences.jpg') }}"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <a class="link-dark">
+                                                <h5 class="card-title">{{_('Food Tour Packages')}}</h5>
+                                            </a>
+                                            <p class="card-text"><b>{{_('Taste Delicious Local Food!')}}</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img src="{{ url_for('static', filename='assets/img/header-birr-castle-county-offaly.jpg') }}"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <a class="link-dark">
+                                                <h5 class="card-title">{{_('Wildlife and Nature Tours')}}</h5>
+                                            </a>
+                                            <p class="card-text"><b>{{_('Experience the Wildlife!')}}</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">{{_('Previous')}}</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls8"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">{{_('Next')}}</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr class="divider my-4">
+        <h2 class="text-center mt-0 p-4">{{_('Testimonials')}}</h2>
+        <hr class="divider my-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+                    <h5>{{_('Hong Gil-sun')}}</h5>
+                    <p class="font-weight-light mb-0">"{{_('I\'m in love with their tours! Amazing experience! Korean Tour Guide was great!')}}"</p>
+                    <p class="client-review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+                    <h5>{{_('Kim Cheol-su')}}</h5>
+                    <p class="font-weight-light mb-0">"{{_('The best vacation I\'ve ever had. Highly recommend!')}}"</p>
+                    <p class="client-review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+                    <h5>{{_('John Doe')}}</h5>
+                    <p class="font-weight-light mb-0">
+
+"{{_('Exceptional service and hospitality. 5 stars!')}}"</p>
+                    <p class="client-review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

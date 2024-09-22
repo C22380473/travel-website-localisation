@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+{% set lang_code = session["language"] %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>{{ _('Hidden Heartlands') }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://unpkg.com/bs-brain@2.0.3/components/contacts/contact-4/assets/css/contact-4.css">
+
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+
+    <link href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation-->
+    {% block navigation %}
+    {% endblock %}
+
+    {% block hero %}
+    {% endblock %}
+
+    {% block main %}
+    {% endblock %}
+
+    <!-- Footer -->
+    <footer class="footer text-center text-lg-start text-white py-5">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            <b>{{ _('Hidden Heartlands') }}</b>
+                        </h6>
+                        <p>
+                            {{ _('Our aim is to provide insights and inspiration for you, our visitors, to plan the perfect short break or holiday here.') }}
+                        </p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold"><b>{{ _('Discover') }}</b></h6>
+                        <p>
+                            <a class="text-white">{{ _('Wild Atlantic Way') }}</a>
+                        </p>
+                        <p>
+                            <a class="text-white">{{ _('Visit Dublin') }}</a>
+                        </p>
+                        <p>
+                            <a class="text-white">{{ _("Ireland's Ancient East") }}</a>
+                        </p>
+                        <p>
+                            <a class="text-white">{{ _("Ireland's Hidden Heartlands") }}</a>
+                        </p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            {{ _('Useful links') }}
+                        </h6>
+                        <p>
+                            <a class="text-white">{{ _('Where to Go') }}</a>
+                        </p>
+                        <p>
+                            <a class="text-white">{{ _('What to Do') }}</a>
+                        </p>
+                        <p>
+                            <a class="text-white">{{ _('Where to Stay') }}</a>
+                        </p>
+                        <p>
+                            <a class="text-white">{{ _('Map') }}</a>
+                        </p>
+                        <p>
+                            <a class="text-white">{{ _('FAQs') }}</a>
+                        </p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">{{ _('Contact') }}</h6>
+                        <p><i class="fas fa-envelope mr-3"></i> discoverireland@failteireland.ie</p>
+                        <p><i class="fas fa-phone mr-3"></i> 1800 230 330 </p>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-3">
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="p-3">
+                            © 2024 Copyright: Hidden Heartlands
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-twitter"></i></a>
+                        <!-- Google -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-google"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- Core theme JS-->
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+</body>
+
+</html>

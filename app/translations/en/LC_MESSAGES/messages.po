@@ -1,0 +1,624 @@
+# English translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-13 04:10+0100\n"
+"PO-Revision-Date: 2024-04-15 13:18+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/base.html:12 templates/base.html:56
+#: templates/includes/en/index.html:19 templates/includes/ko/hero.html:6
+#: templates/includes/ko/navbar.html:3 templates/includes/sv/navbar.html:3
+#: templates/index.html:19
+msgid "Hidden Heartlands"
+msgstr ""
+
+#: templates/base.html:59
+msgid ""
+"Our aim is to provide insights and inspiration for you, our visitors, to "
+"plan the perfect short break or holiday here."
+msgstr ""
+
+#: templates/base.html:64
+msgid "Discover"
+msgstr ""
+
+#: templates/base.html:66
+msgid "Wild Atlantic Way"
+msgstr ""
+
+#: templates/base.html:69
+msgid "Visit Dublin"
+msgstr ""
+
+#: templates/base.html:72
+msgid "Ireland's Ancient East"
+msgstr ""
+
+#: templates/base.html:75 templates/includes/sv/follow.html:6
+msgid "Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/base.html:81
+msgid "Useful links"
+msgstr ""
+
+#: templates/base.html:84 templates/includes/ko/quicklinks.html:5
+msgid "Where to Go"
+msgstr ""
+
+#: templates/base.html:87 templates/includes/ko/quicklinks.html:18
+msgid "What to Do"
+msgstr ""
+
+#: templates/base.html:90 templates/includes/ko/navbar.html:17
+#: templates/includes/ko/quicklinks.html:32
+#: templates/includes/sv/navbar.html:14
+msgid "Where to Stay"
+msgstr ""
+
+#: templates/base.html:93
+msgid "Map"
+msgstr ""
+
+#: templates/base.html:96
+msgid "FAQs"
+msgstr ""
+
+#: templates/base.html:101 templates/includes/ko/navbar.html:21
+msgid "Contact"
+msgstr ""
+
+#: templates/index.html:18
+msgid "Discover the magic of Ireland's"
+msgstr ""
+
+#: templates/index.html:21
+msgid ""
+"Experience Ireland’s Hidden Heartlands, a beautifully unspoiled part of "
+"Ireland where life moves at its own pace. Listen to the ebb and flow of "
+"trickling streams, kayak across wonderful waterways and explore magical "
+"forest treks and trails."
+msgstr ""
+
+#: templates/index.html:23
+msgid ""
+"Meander across expansive boglands, majestic mountains and open valleys. "
+"Visit the riverside towns and villages dotted throughout this enchanting "
+"region. Make sure to stop and soak up the peaceful atmosphere, there's "
+"nowhere quite like it."
+msgstr ""
+
+#: templates/index.html:37
+msgid "- Where to Go -"
+msgstr ""
+
+#: templates/index.html:38
+msgid "Amazing Places to Visit"
+msgstr ""
+
+#: templates/includes/ko/guide.html:12 templates/includes/ko/whatToDo.html:9
+#: templates/includes/sv/whatToDo.html:10 templates/index.html:39
+msgid ""
+"From pretty forest trails to beautiful glass-like lakes, check out the "
+"top experiences and things to do."
+msgstr ""
+
+#: templates/index.html:80
+msgid "Background Image"
+msgstr ""
+
+#: templates/index.html:84
+msgid "What's on in Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/index.html:85
+msgid ""
+"No matter what time of year you visit, you'll find there's fun events and"
+" great things on in this incredible region. - There's always something "
+"happening in Ireland's Hidden Heartlands."
+msgstr ""
+
+#: templates/index.html:85
+msgid "Festivals & Events"
+msgstr ""
+
+#: templates/includes/en/navbar.html:33 templates/includes/en/navbar.html:43
+#: templates/includes/ko/navbar.html:31 templates/includes/sv/navbar.html:33
+#: templates/includes/sv/navbar.html:43
+msgid "Swedish"
+msgstr ""
+
+#: templates/includes/en/navbar.html:35 templates/includes/en/navbar.html:45
+#: templates/includes/ko/navbar.html:33 templates/includes/sv/navbar.html:35
+#: templates/includes/sv/navbar.html:44
+msgid "Korean"
+msgstr ""
+
+#: templates/includes/ko/contact.html:5 templates/includes/ko/contact.html:16
+msgid "Get in Touch"
+msgstr ""
+
+#: templates/includes/ko/contact.html:6
+msgid "Contact Us"
+msgstr ""
+
+#: templates/includes/ko/contact.html:26
+msgid "Full Name"
+msgstr ""
+
+#: templates/includes/ko/contact.html:30
+msgid "Email"
+msgstr ""
+
+#: templates/includes/ko/contact.html:43
+msgid "Phone Number"
+msgstr ""
+
+#: templates/includes/ko/contact.html:56
+msgid "Subject"
+msgstr ""
+
+#: templates/includes/ko/contact.html:60
+msgid "Message"
+msgstr ""
+
+#: templates/includes/ko/contact.html:65
+msgid "Send Message"
+msgstr ""
+
+#: templates/includes/ko/guide.html:8 templates/includes/ko/navbar.html:19
+msgid "Plan Your Trip"
+msgstr ""
+
+#: templates/includes/ko/guide.html:10
+msgid "Dive into Irish Culture"
+msgstr ""
+
+#: templates/includes/ko/guide.html:11 templates/includes/ko/whatToDo.html:8
+#: templates/includes/sv/whatToDo.html:9
+msgid ""
+"Enjoy the peace and serenity of Ireland's Hidden Heartlands on a visit to"
+" this spellbinding region."
+msgstr ""
+
+#: templates/includes/ko/guide.html:14 templates/includes/ko/whatToDo.html:11
+#: templates/includes/sv/whatToDo.html:12
+msgid "Discover More..."
+msgstr ""
+
+#: templates/includes/ko/guide.html:20
+msgid "Choose Your Tour Package"
+msgstr ""
+
+#: templates/includes/ko/guide.html:31
+msgid "Guided Tour Packages"
+msgstr ""
+
+#: templates/includes/ko/guide.html:33
+msgid "Tours In Korean Available!"
+msgstr ""
+
+#: templates/includes/ko/guide.html:43
+msgid "Family Adventure Packages"
+msgstr ""
+
+#: templates/includes/ko/guide.html:45
+msgid "Guaranteed Family Fun!"
+msgstr ""
+
+#: templates/includes/ko/guide.html:59
+msgid "Food Tour Packages"
+msgstr ""
+
+#: templates/includes/ko/guide.html:61
+msgid "Taste Delicious Local Food!"
+msgstr ""
+
+#: templates/includes/ko/guide.html:71
+msgid "Wildlife and Nature Tours"
+msgstr ""
+
+#: templates/includes/ko/guide.html:73
+msgid "Experience the Wildlife!"
+msgstr ""
+
+#: templates/includes/ko/guide.html:84 templates/includes/sv/hero.html:27
+#: templates/includes/sv/map.html:67
+msgid "Previous"
+msgstr ""
+
+#: templates/includes/ko/guide.html:89 templates/includes/sv/hero.html:31
+#: templates/includes/sv/map.html:72
+msgid "Next"
+msgstr ""
+
+#: templates/includes/ko/guide.html:97
+msgid "Testimonials"
+msgstr ""
+
+#: templates/includes/ko/guide.html:103
+msgid "Hong Gil-sun"
+msgstr ""
+
+#: templates/includes/ko/guide.html:104
+msgid ""
+"I'm in love with their tours! Amazing experience! Korean Tour Guide was "
+"great!"
+msgstr ""
+
+#: templates/includes/ko/guide.html:117
+msgid "Kim Cheol-su"
+msgstr ""
+
+#: templates/includes/ko/guide.html:118
+msgid "The best vacation I've ever had. Highly recommend!"
+msgstr ""
+
+#: templates/includes/ko/guide.html:131
+msgid "John Doe"
+msgstr ""
+
+#: templates/includes/ko/guide.html:134
+msgid "Exceptional service and hospitality. 5 stars!"
+msgstr ""
+
+#: templates/includes/ko/hero.html:6
+msgid "Discover Ireland's"
+msgstr ""
+
+#: templates/includes/ko/hero.html:7 templates/includes/sv/hero.html:14
+#: templates/includes/sv/hero.html:21
+msgid "Start your journey today..."
+msgstr ""
+
+#: templates/includes/ko/map.html:9 templates/includes/sv/video.html:14
+msgid "Your's To Uncover"
+msgstr ""
+
+#: templates/includes/ko/map.html:11
+msgid ""
+"From Leitrim's stunning scenery to Longford's natural beauty, experience "
+"Ireland's Hidden Heartlands. Discover magnificent forests, unique "
+"landscapes, and charming villages."
+msgstr ""
+
+#: templates/includes/ko/map.html:28 templates/includes/sv/map.html:5
+msgid "Get exploring"
+msgstr ""
+
+#: templates/includes/ko/map.html:29
+msgid ""
+"Uncover the treasures of Ireland's Hidden Heartlands. Cruise down scenic "
+"waterways, explore countryside walking trails, and enjoy incredible "
+"outdoor adventures."
+msgstr ""
+
+#: templates/includes/ko/navbar.html:13 templates/includes/sv/navbar.html:10
+msgid "Where To Go"
+msgstr ""
+
+#: templates/includes/ko/navbar.html:15 templates/includes/sv/navbar.html:12
+#: templates/includes/sv/whatToDo.html:7
+msgid "What To Do"
+msgstr ""
+
+#: templates/includes/ko/navbar.html:27
+msgid "Select Language"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:7
+#: templates/includes/ko/whereToGo.html:11
+msgid "Leitrim"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:8
+#: templates/includes/ko/whereToGo.html:24
+msgid "Roscommon"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:9
+#: templates/includes/ko/whereToGo.html:38
+msgid "Longford"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:10
+#: templates/includes/ko/whereToGo.html:51
+msgid "Tipperary"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:11
+#: templates/includes/ko/whereToGo.html:64
+msgid "Offaly"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:12
+#: templates/includes/ko/whereToGo.html:77
+msgid "Westmeath"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:21
+#: templates/includes/ko/whatToDo.html:23
+msgid "Zipit Lough Key"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:22
+#: templates/includes/ko/whatToDo.html:41
+msgid "Viking Tours"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:24
+#: templates/includes/ko/whatToDo.html:60
+msgid "Cloughan Farm & Cookery School"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:27
+msgid "Discover More"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:34
+#: templates/includes/ko/whereToStay.html:19
+msgid "Radisson Blu Hotel Athlone"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:35
+#: templates/includes/ko/whereToStay.html:32
+msgid "Lough Rea Hotel & Spa"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:37
+#: templates/includes/ko/whereToStay.html:45
+msgid "Bridge House Hotel Spa and Leisure Club"
+msgstr ""
+
+#: templates/includes/ko/quicklinks.html:40
+msgid "Find More Accommodation"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:6
+msgid "- What To Do -"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:7 templates/includes/sv/whatToDo.html:8
+msgid "Start Your Adventure"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:18
+#: templates/includes/sv/whatToDo.html:31
+msgid "Heartlands Ecotours"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:26
+msgid "Boyle, County Roscommon"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:27
+msgid ""
+"Experience the excitement of challenging, adrenaline-fueled activities in"
+" the treetops."
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:28
+msgid "Great For Kids"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:37
+#: templates/includes/ko/whatToDo.html:55
+#: templates/includes/sv/whatToDo.html:47
+msgid "Cadamstown Nature Eco Trail"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:44
+msgid "Athlone, County Westmeath"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:45
+msgid ""
+"Sit back and listen, while taking in the magnificent scenery, wildlife "
+"and heritage."
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:46
+msgid "Great For Family"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:63
+msgid "Abbeyshrule, County Longford"
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:64
+msgid ""
+"Reconnect with land and food with Longford Hero Food Champions Fiona Egan"
+" and Michael Farrell."
+msgstr ""
+
+#: templates/includes/ko/whatToDo.html:65
+msgid "Great For Parents"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:3
+#: templates/includes/sv/whereToStay.html:3
+msgid "- Where to Stay -"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:4
+#: templates/includes/sv/whereToStay.html:5
+msgid "Looking to stay in Ireland's Hidden Heartlands?"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:6
+#: templates/includes/sv/whereToStay.html:7
+msgid ""
+"Stay on the water or hide away in a lakeside retreat. From brilliant "
+"B&B's and countryside manors to 5-star hotels - find your perfect base "
+"for exploring Ireland's Hidden Heartlands."
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:7
+#: templates/includes/sv/whereToStay.html:8
+msgid "Find Accomodation"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:8
+#: templates/includes/sv/whereToStay.html:9
+msgid "Featured Picks"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:20
+msgid "Athlone, Co. Westmeath"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:21
+#: templates/includes/ko/whereToStay.html:34
+#: templates/includes/ko/whereToStay.html:47
+msgid "Highly-Rated!"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:33
+msgid "Loughrea, Co.Galway"
+msgstr ""
+
+#: templates/includes/ko/whereToStay.html:46
+msgid "Tullamore, Co. Offaly"
+msgstr ""
+
+#: templates/includes/sv/follow.html:6
+msgid "Follow"
+msgstr ""
+
+#: templates/includes/sv/follow.html:6
+msgid "on social media"
+msgstr ""
+
+#: templates/includes/sv/hero.html:7
+msgid "Discover Ireland's - Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/hero.html:13 templates/includes/sv/hero.html:20
+msgid "Discover Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/map.html:6
+msgid ""
+"Uncover the treasures of Ireland’s Hidden Heartlands. Cruise down scenic "
+"waterways, explore countryside walking trails and enjoy incredible "
+"outdoor adventures."
+msgstr ""
+
+#: templates/includes/sv/map.html:15
+msgid "Lough Derg"
+msgstr ""
+
+#: templates/includes/sv/map.html:28
+msgid "Athlone"
+msgstr ""
+
+#: templates/includes/sv/map.html:41
+msgid "Carrick-On-Shannon"
+msgstr ""
+
+#: templates/includes/sv/map.html:54
+msgid "Cavan"
+msgstr ""
+
+#: templates/includes/sv/navbar.html:16
+msgid "Explore Map"
+msgstr ""
+
+#: templates/includes/sv/video.html:16
+msgid ""
+"From Leitrim's stunning scenery to Longford's natural beauty, experience "
+"Ireland's Hidden Heartlands. Discover magnificent forests, unique "
+"landscapes and charming villages."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:33
+msgid ""
+"Learn about plants and animals of East Clare and Lough Derg in stunning "
+"upland scenery and in the depths of mystical woodlands."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:49
+msgid ""
+"Explore the geological wonders of Silver River's rock exposures, cliffs "
+"and rock formations."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:66
+msgid "Leitrim Surf and SUP Company"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:68
+msgid ""
+"Take the Drumshamazon Canal tour with Amazonian-like scenery during the "
+"summer."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:83
+msgid "Birr Castle Demesne & Historic Science Centre"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:86
+msgid ""
+"Tour the castle, explore the gardens and discover the Historic Science "
+"Centre's Great Telescope."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:104
+msgid "Experience Lough Gur"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:106
+msgid ""
+"Head to the unique crannog-shaped heritage site and hear the story of "
+"pre-Celtic settlers who farmed and lived in Lough Gur."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:120
+msgid "Lorrha Walking, History & Heritage Tours"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:122
+msgid ""
+"Hear fascinating tales of high kings, Vikings, monks, mysteries and "
+"miracles."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:140
+msgid "Delicious food in Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:143
+msgid ""
+"Whether you're a consummate carnivore or a dedicated vegan, you'll be "
+"spoilt for choice in Ireland's Hidden Heartlands..."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:157
+msgid "Greenways and trails in Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:159
+msgid ""
+"Stretching across nine counties, the rich, rural landscapes of Ireland's "
+"Hidden Heartlands are both rugged and beautiful..."
+msgstr ""
+
+#: templates/includes/sv/whereToStay.html:24
+#: templates/includes/sv/whereToStay.html:39
+#: templates/includes/sv/whereToStay.html:54
+msgid "Eco-Friendly!"
+msgstr ""
+

@@ -1,0 +1,38 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light py-lg-4" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-5" href="#">{{_('Hidden Heartlands')}}</a>
+        <!-- Button to reveal sidebar -->
+        <button class="navbar-toggler" type="button" id="sidebarToggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#whereToGo">{{_('Where To Go')}}</a>
+                </li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#whatToDo">{{_('What To Do')}}</a>
+                </li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#whereToStay">{{_('Where to Stay')}}</a>
+                </li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#guide">{{_('Plan Your Trip')}}</a>
+                </li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#contact">{{_('Contact')}}</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="{{ url_for('static', filename='assets/img/globe.png') }}" alt="Language" width="20"
+                            height="20"> {{_('Select Language')}}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item"
+                                href="{{ url_for('set_language', lang_code='sv') }}">{{_('Swedish')}}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

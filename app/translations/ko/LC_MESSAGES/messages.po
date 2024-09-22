@@ -1,0 +1,626 @@
+# Korean translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-13 04:10+0100\n"
+"PO-Revision-Date: 2024-04-12 15:34+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ko\n"
+"Language-Team: ko <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/base.html:12 templates/base.html:56
+#: templates/includes/en/index.html:19 templates/includes/ko/hero.html:6
+#: templates/includes/ko/navbar.html:3 templates/includes/sv/navbar.html:3
+#: templates/index.html:19
+msgid "Hidden Heartlands"
+msgstr "숨겨진 중심지"
+
+#: templates/base.html:59
+msgid ""
+"Our aim is to provide insights and inspiration for you, our visitors, to "
+"plan the perfect short break or holiday here."
+msgstr "우리의 목표는 방문객들이 이곳에서 완벽한 짧은 휴식이나 휴가를 계획할 수 있도록 통찰력과 영감을 제공하는 것입니다."
+
+#: templates/base.html:64
+msgid "Discover"
+msgstr "발견하다"
+
+#: templates/base.html:66
+msgid "Wild Atlantic Way"
+msgstr "와일드 애틀랜틱 웨이"
+
+#: templates/base.html:69
+msgid "Visit Dublin"
+msgstr "더블린 방문"
+
+#: templates/base.html:72
+msgid "Ireland's Ancient East"
+msgstr "아일랜드의 고대 동부"
+
+#: templates/base.html:75 templates/includes/sv/follow.html:6
+msgid "Ireland's Hidden Heartlands"
+msgstr "아일랜드의 숨겨진 중심지"
+
+#: templates/base.html:81
+msgid "Useful links"
+msgstr "유용한 링크"
+
+#: templates/base.html:84 templates/includes/ko/quicklinks.html:5
+msgid "Where to Go"
+msgstr "어디로 가야"
+
+#: templates/base.html:87 templates/includes/ko/quicklinks.html:18
+msgid "What to Do"
+msgstr "해야 할 일"
+
+#: templates/base.html:90 templates/includes/ko/navbar.html:17
+#: templates/includes/ko/quicklinks.html:32
+#: templates/includes/sv/navbar.html:14
+msgid "Where to Stay"
+msgstr "머무를 곳"
+
+#: templates/base.html:93
+msgid "Map"
+msgstr "지도"
+
+#: templates/base.html:96
+msgid "FAQs"
+msgstr "자주 묻는 질문"
+
+#: templates/base.html:101 templates/includes/ko/navbar.html:21
+msgid "Contact"
+msgstr "연락하다"
+
+#: templates/index.html:18
+msgid "Discover the magic of Ireland's"
+msgstr "아일랜드의 마법을 발견해보세요"
+
+#: templates/index.html:21
+msgid ""
+"Experience Ireland’s Hidden Heartlands, a beautifully unspoiled part of "
+"Ireland where life moves at its own pace. Listen to the ebb and flow of "
+"trickling streams, kayak across wonderful waterways and explore magical "
+"forest treks and trails."
+msgstr ""
+"삶이 자신의 속도로 움직이는 아름답고 때묻지 않은 곳인 아일랜드의 숨겨진 심장을 경험해 보세요. 졸졸 흐르는 시냇물의 썰물과 흐름을"
+" 듣고, 아름다운 수로를 건너 카약을 타고, 마법 같은 숲속 트레킹과 산책로를 탐험해보세요."
+
+#: templates/index.html:23
+msgid ""
+"Meander across expansive boglands, majestic mountains and open valleys. "
+"Visit the riverside towns and villages dotted throughout this enchanting "
+"region. Make sure to stop and soak up the peaceful atmosphere, there's "
+"nowhere quite like it."
+msgstr ""
+"광활한 습지, 장엄한 산, 탁 트인 계곡을 가로질러 거닐어보세요. 이 매혹적인 지역 곳곳에 흩어져 있는 강변 마을과 마을을 방문해 "
+"보세요. 꼭 멈춰서 평화로운 분위기를 만끽하세요. 이곳만큼 좋은 곳은 어디에도 없습니다."
+
+#: templates/index.html:37
+msgid "- Where to Go -"
+msgstr "- 어디로 가야 -"
+
+#: templates/index.html:38
+msgid "Amazing Places to Visit"
+msgstr "놀라운 방문 장소"
+
+#: templates/includes/ko/guide.html:12 templates/includes/ko/whatToDo.html:9
+#: templates/includes/sv/whatToDo.html:10 templates/index.html:39
+msgid ""
+"From pretty forest trails to beautiful glass-like lakes, check out the "
+"top experiences and things to do."
+msgstr "예쁜 숲속 산책로부터 유리처럼 아름다운 호수까지, 최고의 경험과 즐길거리를 확인해보세요."
+
+#: templates/index.html:80
+msgid "Background Image"
+msgstr ""
+
+#: templates/index.html:84
+msgid "What's on in Ireland's Hidden Heartlands"
+msgstr "아일랜드의 숨겨진 중심부에 무슨 일이 일어나고 있나요?"
+
+#: templates/index.html:85
+msgid ""
+"No matter what time of year you visit, you'll find there's fun events and"
+" great things on in this incredible region. - There's always something "
+"happening in Ireland's Hidden Heartlands."
+msgstr ""
+"일년 중 어느 시기에 방문하더라도 이 놀라운 지역에는 재미있는 이벤트와 즐길거리가 있다는 것을 알게 될 것입니다. - 아일랜드의 "
+"히든 하트랜드에는 항상 무슨 일이 일어나고 있습니다."
+
+#: templates/index.html:85
+msgid "Festivals & Events"
+msgstr "축제 및 이벤트"
+
+#: templates/includes/en/navbar.html:33 templates/includes/en/navbar.html:43
+#: templates/includes/ko/navbar.html:31 templates/includes/sv/navbar.html:33
+#: templates/includes/sv/navbar.html:43
+msgid "Swedish"
+msgstr "스웨덴어"
+
+#: templates/includes/en/navbar.html:35 templates/includes/en/navbar.html:45
+#: templates/includes/ko/navbar.html:33 templates/includes/sv/navbar.html:35
+#: templates/includes/sv/navbar.html:44
+msgid "Korean"
+msgstr "한국인"
+
+#: templates/includes/ko/contact.html:5 templates/includes/ko/contact.html:16
+msgid "Get in Touch"
+msgstr "연락하기"
+
+#: templates/includes/ko/contact.html:6
+msgid "Contact Us"
+msgstr "문의하기"
+
+#: templates/includes/ko/contact.html:26
+msgid "Full Name"
+msgstr "풀네임"
+
+#: templates/includes/ko/contact.html:30
+msgid "Email"
+msgstr "이메일"
+
+#: templates/includes/ko/contact.html:43
+msgid "Phone Number"
+msgstr "전화 번호"
+
+#: templates/includes/ko/contact.html:56
+msgid "Subject"
+msgstr "주제"
+
+#: templates/includes/ko/contact.html:60
+msgid "Message"
+msgstr "메시지"
+
+#: templates/includes/ko/contact.html:65
+msgid "Send Message"
+msgstr "문자 보내"
+
+#: templates/includes/ko/guide.html:8 templates/includes/ko/navbar.html:19
+msgid "Plan Your Trip"
+msgstr "여행 계획하기"
+
+#: templates/includes/ko/guide.html:10
+msgid "Dive into Irish Culture"
+msgstr "아일랜드 문화에 빠져보세요"
+
+#: templates/includes/ko/guide.html:11 templates/includes/ko/whatToDo.html:8
+#: templates/includes/sv/whatToDo.html:9
+msgid ""
+"Enjoy the peace and serenity of Ireland's Hidden Heartlands on a visit to"
+" this spellbinding region."
+msgstr "이 매혹적인 지역을 방문하여 아일랜드 숨겨진 중심부의 평화로움과 고요함을 즐겨보세요."
+
+#: templates/includes/ko/guide.html:14 templates/includes/ko/whatToDo.html:11
+#: templates/includes/sv/whatToDo.html:12
+msgid "Discover More..."
+msgstr "더 발견하다..."
+
+#: templates/includes/ko/guide.html:20
+msgid "Choose Your Tour Package"
+msgstr "투어 패키지를 선택하세요"
+
+#: templates/includes/ko/guide.html:31
+msgid "Guided Tour Packages"
+msgstr "가이드 투어 패키지"
+
+#: templates/includes/ko/guide.html:33
+msgid "Tours In Korean Available!"
+msgstr "한국어 투어 가능!"
+
+#: templates/includes/ko/guide.html:43
+msgid "Family Adventure Packages"
+msgstr "가족 모험 패키지"
+
+#: templates/includes/ko/guide.html:45
+msgid "Guaranteed Family Fun!"
+msgstr "가족의 즐거움을 보장합니다!"
+
+#: templates/includes/ko/guide.html:59
+msgid "Food Tour Packages"
+msgstr "푸드 투어 패키지"
+
+#: templates/includes/ko/guide.html:61
+msgid "Taste Delicious Local Food!"
+msgstr "맛있는 현지 음식을 맛보세요!"
+
+#: templates/includes/ko/guide.html:71
+msgid "Wildlife and Nature Tours"
+msgstr "야생동물 및 자연 투어"
+
+#: templates/includes/ko/guide.html:73
+msgid "Experience the Wildlife!"
+msgstr "야생동물 체험하기!"
+
+#: templates/includes/ko/guide.html:97
+msgid "Testimonials"
+msgstr "사용후기"
+
+#: templates/includes/ko/guide.html:103
+msgid "Hong Gil-sun"
+msgstr "홍길순"
+
+#: templates/includes/ko/guide.html:104
+msgid ""
+"I'm in love with their tours! Amazing experience! Korean Tour Guide was "
+"great!"
+msgstr "나는 그들의 투어를 좋아합니다! 놀라운 경험! 한국어 투어 가이드는 훌륭했습니다!"
+
+#: templates/includes/ko/guide.html:117
+msgid "Kim Cheol-su"
+msgstr "김철수"
+
+#: templates/includes/ko/guide.html:118
+msgid "The best vacation I've ever had. Highly recommend!"
+msgstr "내가 가진 최고의 휴가. 강력 추천!"
+
+#: templates/includes/ko/guide.html:131
+msgid "John Doe"
+msgstr "존 도우"
+
+#: templates/includes/ko/guide.html:134
+msgid "Exceptional service and hospitality. 5 stars!"
+msgstr "탁월한 서비스와 환대. 별 5개!"
+
+#: templates/includes/ko/hero.html:6
+msgid "Discover Ireland's"
+msgstr "아일랜드의 마법을 발견해보세요"
+
+#: templates/includes/ko/hero.html:7 templates/includes/sv/hero.html:14
+#: templates/includes/sv/hero.html:21
+msgid "Start your journey today..."
+msgstr "오늘부터 여행을 시작하세요..."
+
+#: templates/includes/ko/map.html:9 templates/includes/sv/video.html:14
+msgid "Your's To Uncover"
+msgstr "발견할 것들"
+
+#: templates/includes/ko/map.html:11
+msgid ""
+"From Leitrim's stunning scenery to Longford's natural beauty, experience "
+"Ireland's Hidden Heartlands. Discover magnificent forests, unique "
+"landscapes, and charming villages."
+msgstr ""
+"리트림의 눈부신 풍경부터 롱포드의 아름다운 자연까지, 아일랜드의 숨겨진 중심지를 경험해 보세요. 웅장한 숲, 독특한 풍경, 매력적인"
+" 마을을 발견해보세요."
+
+#: templates/includes/ko/map.html:28 templates/includes/sv/map.html:5
+msgid "Get exploring"
+msgstr "탐험해 보세요"
+
+#: templates/includes/ko/map.html:29
+msgid ""
+"Uncover the treasures of Ireland's Hidden Heartlands. Cruise down scenic "
+"waterways, explore countryside walking trails, and enjoy incredible "
+"outdoor adventures."
+msgstr ""
+"아일랜드 마음의 숨겨진 보물을 발견해보세요. 아름다운 수로를 따라 크루즈를 즐기고, 시골길을 탐험하고, 놀라운 야외 모험을 "
+"즐겨보세요."
+
+#: templates/includes/ko/navbar.html:13 templates/includes/sv/navbar.html:10
+msgid "Where To Go"
+msgstr "어디로 가야"
+
+#: templates/includes/ko/navbar.html:15 templates/includes/sv/navbar.html:12
+#: templates/includes/sv/whatToDo.html:7
+msgid "What To Do"
+msgstr "해야 할 일"
+
+#: templates/includes/ko/navbar.html:27
+msgid "Select Language"
+msgstr "언어 선택"
+
+#: templates/includes/ko/quicklinks.html:7
+#: templates/includes/ko/whereToGo.html:11
+msgid "Leitrim"
+msgstr "리트림"
+
+#: templates/includes/ko/quicklinks.html:8
+#: templates/includes/ko/whereToGo.html:24
+msgid "Roscommon"
+msgstr "로스커먼"
+
+#: templates/includes/ko/quicklinks.html:9
+#: templates/includes/ko/whereToGo.html:38
+msgid "Longford"
+msgstr "롱포드"
+
+#: templates/includes/ko/quicklinks.html:10
+#: templates/includes/ko/whereToGo.html:51
+msgid "Tipperary"
+msgstr "티퍼레리"
+
+#: templates/includes/ko/quicklinks.html:11
+#: templates/includes/ko/whereToGo.html:64
+msgid "Offaly"
+msgstr "오팔리"
+
+#: templates/includes/ko/quicklinks.html:12
+#: templates/includes/ko/whereToGo.html:77
+msgid "Westmeath"
+msgstr "스트미스"
+
+#: templates/includes/ko/quicklinks.html:21
+#: templates/includes/ko/whatToDo.html:23
+msgid "Zipit Lough Key"
+msgstr "지핏 로우 키"
+
+#: templates/includes/ko/quicklinks.html:22
+#: templates/includes/ko/whatToDo.html:41
+msgid "Viking Tours"
+msgstr "바이킹 투어"
+
+#: templates/includes/ko/quicklinks.html:24
+#: templates/includes/ko/whatToDo.html:60
+msgid "Cloughan Farm & Cookery School"
+msgstr "클로한 농장 및 요리 학교"
+
+#: templates/includes/ko/quicklinks.html:27
+msgid "Discover More"
+msgstr "더 발견하다"
+
+#: templates/includes/ko/quicklinks.html:34
+#: templates/includes/ko/whereToStay.html:19
+msgid "Radisson Blu Hotel Athlone"
+msgstr "래디슨 블루 호텔 애슬론"
+
+#: templates/includes/ko/quicklinks.html:35
+#: templates/includes/ko/whereToStay.html:32
+msgid "Lough Rea Hotel & Spa"
+msgstr "로끄 리아 호텔 & 스파"
+
+#: templates/includes/ko/quicklinks.html:37
+#: templates/includes/ko/whereToStay.html:45
+msgid "Bridge House Hotel Spa and Leisure Club"
+msgstr "브리지 하우스 호텔 스파 앤 레저 클럽"
+
+#: templates/includes/ko/quicklinks.html:40
+msgid "Find More Accommodation"
+msgstr "더 많은 숙박 시설 찾기"
+
+#: templates/includes/ko/whatToDo.html:6
+msgid "- What To Do -"
+msgstr "해야 할 일"
+
+#: templates/includes/ko/whatToDo.html:7 templates/includes/sv/whatToDo.html:8
+msgid "Start Your Adventure"
+msgstr "모험을 시작하세요"
+
+#: templates/includes/ko/whatToDo.html:18
+#: templates/includes/sv/whatToDo.html:31
+msgid "Heartlands Ecotours"
+msgstr "하트랜드 에코투어"
+
+#: templates/includes/ko/whatToDo.html:26
+msgid "Boyle, County Roscommon"
+msgstr "보일, 로스커먼 카운티"
+
+#: templates/includes/ko/whatToDo.html:27
+msgid ""
+"Experience the excitement of challenging, adrenaline-fueled activities in"
+" the treetops."
+msgstr "나무 꼭대기에서 도전적이고 아드레날린이 분출되는 활동의 즐거움을 경험해 보세요."
+
+#: templates/includes/ko/whatToDo.html:28
+msgid "Great For Kids"
+msgstr "아이들에게 좋습니다"
+
+#: templates/includes/ko/whatToDo.html:37
+#: templates/includes/ko/whatToDo.html:55
+#: templates/includes/sv/whatToDo.html:47
+msgid "Cadamstown Nature Eco Trail"
+msgstr "카담스타운 네이처 에코 트레일"
+
+#: templates/includes/ko/whatToDo.html:44
+msgid "Athlone, County Westmeath"
+msgstr "애슬론, 웨스트미스 카운티"
+
+#: templates/includes/ko/whatToDo.html:45
+msgid ""
+"Sit back and listen, while taking in the magnificent scenery, wildlife "
+"and heritage."
+msgstr "편안히 앉아 웅장한 풍경, 야생동물, 문화유산을 감상하면서 귀를 기울여 보세요."
+
+#: templates/includes/ko/whatToDo.html:46
+msgid "Great For Family"
+msgstr "가족에게 좋습니다"
+
+#: templates/includes/ko/whatToDo.html:63
+msgid "Abbeyshrule, County Longford"
+msgstr "애비슈룰, 롱포드 카운티"
+
+#: templates/includes/ko/whatToDo.html:64
+msgid ""
+"Reconnect with land and food with Longford Hero Food Champions Fiona Egan"
+" and Michael Farrell."
+msgstr "롱포드 히어로 푸드 챔피언 피오나 이건과 마이클 파렐과 함께 땅과 음식으로 다시 연결하세요."
+
+#: templates/includes/ko/whatToDo.html:65
+msgid "Great For Parents"
+msgstr "부모님께 좋습니다"
+
+#: templates/includes/ko/whereToStay.html:3
+#: templates/includes/sv/whereToStay.html:3
+msgid "- Where to Stay -"
+msgstr "- 머무를 곳 -"
+
+#: templates/includes/ko/whereToStay.html:4
+#: templates/includes/sv/whereToStay.html:5
+msgid "Looking to stay in Ireland's Hidden Heartlands?"
+msgstr "아일랜드의 숨겨진 심장부에 머물고 싶으십니까?"
+
+#: templates/includes/ko/whereToStay.html:6
+#: templates/includes/sv/whereToStay.html:7
+msgid ""
+"Stay on the water or hide away in a lakeside retreat. From brilliant "
+"B&B's and countryside manors to 5-star hotels - find your perfect base "
+"for exploring Ireland's Hidden Heartlands."
+msgstr ""
+"물 위에 머물거나 호숫가 휴양지에 숨어보세요. 화려한 B&B와 시골 저택부터 5성급 호텔까지 아일랜드의 숨겨진 중심부를 탐험하기 "
+"위한 완벽한 기지를 찾으세요."
+
+#: templates/includes/ko/whereToStay.html:7
+#: templates/includes/sv/whereToStay.html:8
+msgid "Find Accomodation"
+msgstr "숙소 찾기"
+
+#: templates/includes/ko/whereToStay.html:8
+#: templates/includes/sv/whereToStay.html:9
+msgid "Featured Picks"
+msgstr "최고의 선택"
+
+#: templates/includes/ko/whereToStay.html:20
+msgid "Athlone, Co. Westmeath"
+msgstr "애슬론, 웨스트미스 카운티"
+
+#: templates/includes/ko/whereToStay.html:21
+#: templates/includes/ko/whereToStay.html:34
+#: templates/includes/ko/whereToStay.html:47
+msgid "Highly-Rated!"
+msgstr "높은 평가를 받았습니다!"
+
+#: templates/includes/ko/whereToStay.html:33
+msgid "Loughrea, Co.Galway"
+msgstr "로끄 리아, 카운티 로레아"
+
+#: templates/includes/ko/whereToStay.html:46
+msgid "Tullamore, Co. Offaly"
+msgstr "툴라모어, 오팔리 카운티"
+
+#: templates/includes/sv/follow.html:6
+msgid "Follow"
+msgstr ""
+
+#: templates/includes/sv/follow.html:6
+msgid "on social media"
+msgstr ""
+
+#: templates/includes/sv/hero.html:7
+msgid "Discover Ireland's - Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/hero.html:13 templates/includes/sv/hero.html:20
+msgid "Discover Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/map.html:6
+msgid ""
+"Uncover the treasures of Ireland’s Hidden Heartlands. Cruise down scenic "
+"waterways, explore countryside walking trails and enjoy incredible "
+"outdoor adventures."
+msgstr ""
+
+#: templates/includes/sv/map.html:15
+msgid "Lough Derg"
+msgstr ""
+
+#: templates/includes/sv/map.html:28
+msgid "Athlone"
+msgstr ""
+
+#: templates/includes/sv/map.html:41
+msgid "Carrick-On-Shannon"
+msgstr ""
+
+#: templates/includes/sv/map.html:54
+msgid "Cavan"
+msgstr ""
+
+#: templates/includes/sv/navbar.html:16
+msgid "Explore Map"
+msgstr ""
+
+#: templates/includes/sv/video.html:16
+msgid ""
+"From Leitrim's stunning scenery to Longford's natural beauty, experience "
+"Ireland's Hidden Heartlands. Discover magnificent forests, unique "
+"landscapes and charming villages."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:33
+msgid ""
+"Learn about plants and animals of East Clare and Lough Derg in stunning "
+"upland scenery and in the depths of mystical woodlands."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:49
+msgid ""
+"Explore the geological wonders of Silver River's rock exposures, cliffs "
+"and rock formations."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:66
+msgid "Leitrim Surf and SUP Company"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:68
+msgid ""
+"Take the Drumshamazon Canal tour with Amazonian-like scenery during the "
+"summer."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:83
+msgid "Birr Castle Demesne & Historic Science Centre"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:86
+msgid ""
+"Tour the castle, explore the gardens and discover the Historic Science "
+"Centre's Great Telescope."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:104
+msgid "Experience Lough Gur"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:106
+msgid ""
+"Head to the unique crannog-shaped heritage site and hear the story of "
+"pre-Celtic settlers who farmed and lived in Lough Gur."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:120
+msgid "Lorrha Walking, History & Heritage Tours"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:122
+msgid ""
+"Hear fascinating tales of high kings, Vikings, monks, mysteries and "
+"miracles."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:140
+msgid "Delicious food in Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:143
+msgid ""
+"Whether you're a consummate carnivore or a dedicated vegan, you'll be "
+"spoilt for choice in Ireland's Hidden Heartlands..."
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:157
+msgid "Greenways and trails in Ireland's Hidden Heartlands"
+msgstr ""
+
+#: templates/includes/sv/whatToDo.html:159
+msgid ""
+"Stretching across nine counties, the rich, rural landscapes of Ireland's "
+"Hidden Heartlands are both rugged and beautiful..."
+msgstr ""
+
+#: templates/includes/sv/whereToStay.html:24
+#: templates/includes/sv/whereToStay.html:39
+#: templates/includes/sv/whereToStay.html:54
+msgid "Eco-Friendly!"
+msgstr ""
+

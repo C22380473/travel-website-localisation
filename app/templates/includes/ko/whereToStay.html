@@ -1,0 +1,52 @@
+<section class="page-section" id="whereToStay">
+    <div class="container">
+        <h2 class="mb-4 section-heading"> <span class="section-heading-upper p-2">{{_('- Where to Stay -')}}</span></h2>
+        <h4 class="mb-4"> <span class="section-heading-upper p-2">{{_('Looking to stay in Ireland\'s Hidden Heartlands?')}}</span>
+        </h4>
+        <p class="mb-4 text-wrap p-6">{{_('Stay on the water or hide away in a lakeside retreat. From brilliant B&B\'s and countryside manors to 5-star hotels - find your perfect base for exploring Ireland\'s Hidden Heartlands.')}}<br><br><a href="https://www.discoverireland.ie/irelands-hidden-heartlands/accommodation"
+                class="btn btn-primary" style="font-family: 'Raleway';">{{_('Find Accomodation')}}</a></p>
+        <h4 class="mb-4"> <span class="section-heading-upper p-2"><b>{{_('Featured Picks')}}</b></span></h4>
+        <div class="row text-center">
+            <!-- First three images with quick links -->
+            <div class="col-md-4">
+                <div class="rounded overflow-hidden">
+                    <a href="https://www.radathlone.com/">
+                        <img src="{{ url_for('static', filename='assets/img/ko/lrg-hotel-02.jpg') }}" class="img-fluid"
+                            alt="Image 1">
+                    </a>
+                </div>
+                <div class="mt-3">
+                    <a href="https://www.radathlone.com/" class="link-dark"><b>{{_('Radisson Blu Hotel Athlone')}}</b></a>
+                    <p>{{_('Athlone, Co. Westmeath')}}<br><a class="btn btn-success"
+                            style="font-family: 'Raleway';">{{_('Highly-Rated!')}}</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="rounded overflow-hidden">
+                    <a href="https://www.loughreahotelandspa.com/">
+                        <img src="{{ url_for('static', filename='assets/img/ko/Dining-1-1920x1074.jpg') }}"
+                            class="img-fluid" alt="Image 2">
+                    </a>
+                </div>
+                <div class="mt-3">
+                    <a href="https://www.loughreahotelandspa.com/" class="link-dark"><b>{{_('Lough Rea Hotel & Spa')}}</b></a>
+                    <p>{{_('Loughrea, Co.Galway')}}<br><a class="btn btn-success"
+                            style="font-family: 'Raleway';">{{_('Highly-Rated!')}}</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="rounded overflow-hidden">
+                    <a href="https://www.bridgehousehoteltullamore.ie/?devicetype=pc">
+                        <img src="{{ url_for('static', filename='assets/img/ko/bridge-house-hotel-spa.jpg') }}"
+                            class="img-fluid" alt="Image 3">
+                    </a>
+                </div>
+                <div class="mt-3">
+                    <a href="https://www.bridgehousehoteltullamore.ie/?devicetype=pc" class="link-dark"><b>{{_('Bridge House Hotel Spa and Leisure Club')}}</b></a>
+                    <p>{{_('Tullamore, Co. Offaly')}}<br><a class="btn btn-success"
+                            style="font-family: 'Raleway';">{{_('Highly-Rated!')}}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

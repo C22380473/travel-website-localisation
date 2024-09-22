@@ -1,0 +1,83 @@
+<section class="page-section cta clearfix" id="exploreMap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="mb-4 section-heading"> <span class="section-heading-upper">{{ _('Get exploring') }}</span></h2>
+                <p class="mb-1 col-md-8 text-wrap">{{ _('Uncover the treasures of Ireland’s Hidden Heartlands. Cruise down scenic waterways, explore countryside walking trails and enjoy incredible outdoor adventures.') }}</p>
+
+                <!-- Small carousel of 4 cards -->
+                <div id="smallCarousel" class="carousel carousel-light slide col-6 m-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="https://www.discoverireland.ie/lough-derg" class="link-dark">
+                                        <h5 class="card-title">{{ _('Lough Derg') }}</h5>
+                                    </a>
+                                </div>
+                                <a href="https://www.discoverireland.ie/lough-derg">
+                                    <img src="{{ url_for('static', filename='assets/img/sv/sup-killaloe-lough-derg.jpg') }}"
+                                        class="card-img-top" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="https://www.discoverireland.ie/athlone" class="link-dark">
+                                        <h5 class="card-title">{{ _('Athlone') }}</h5>
+                                    </a>
+                                </div>
+                                <a href="https://www.discoverireland.ie/athlone">
+                                    <img src="{{ url_for('static', filename='assets/img/sv/athlone-town-county-westmeath.jpg') }}"
+                                        class="card-img-top" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="https://www.discoverireland.ie/carrick-on-shannon" class="link-dark">
+                                        <h5 class="card-title">{{ _('Carrick-On-Shannon') }}</h5>
+                                    </a>
+                                </div>
+                                <a>
+                                    <img src="{{ url_for('static', filename='assets/img/sv/header-carrick-on-shannon-county-leitrim.jpg') }}"
+                                        class="card-img-top" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="https://www.discoverireland.ie/cavan" class="link-dark">
+                                        <h5 class="card-title">{{ _('Cavan') }}</h5>
+                                    </a>
+                                </div>
+                                <a href="https://www.discoverireland.ie/cavan">
+                                    <img src="{{ url_for('static', filename='assets/img/sv/cloughoughter-castle-county-cavan.jpg') }}"
+                                        class="card-img-top" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#smallCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">{{ _('Previous') }}</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#smallCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">{{ _('Next') }}</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <iframe
+                    src="https://www.google.com/maps/d/u/0/embed?mid=18uagelrXThQXAWWda4BfcqqfzGRTgLA&ehbc=2E312F&noprof=1"
+                    width="640" height="480"></iframe>
+            </div>
+        </div>
+    </div>
+</section>

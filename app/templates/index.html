@@ -1,0 +1,124 @@
+<!-- index.html -->
+{% extends 'base.html' %}
+{% block navigation %}
+{% include 'includes/' + lang_code + '/navbar.html' %}
+{% endblock %}
+{% block hero %}
+{% include 'includes/' + lang_code + '/hero.html' %}
+{% endblock %}
+
+{% block main %}
+
+
+<section class="page-section cta" id="main">
+    <div class="container">
+        <div class="col-xl-9 mx-auto">
+            <div class="text-center rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">{{ _('Discover the magic of Ireland\'s') }}</span>
+                    <span class="section-heading-upper">{{ _('Hidden Heartlands') }}</span>
+                </h2>
+                <p class="col-md-8 mx-auto mb-4 text-wrap text-center">{{ _('Experience Ireland’s Hidden Heartlands, a beautifully unspoiled part of Ireland where life moves at its own pace. Listen to the ebb and flow of trickling streams, kayak across wonderful waterways and explore magical forest treks and trails.') }}</p>
+
+                <p class="col-md-8 mx-auto mb-4 text-wrap text-center">{{ _('Meander across expansive boglands, majestic mountains and open valleys. Visit the riverside towns and villages dotted throughout this enchanting region. Make sure to stop and soak up the peaceful atmosphere, there\'s nowhere quite like it.') }}</p>
+            </div>
+        </div>
+    </div>
+    {% if lang_code == 'ko' %}
+    {% block quicklinks %}
+    {% include 'includes/' + lang_code + '/quicklinks.html' %}
+    {% endblock %}
+    {% endif %}
+</section>
+
+
+<section class="page-section" id="whereToGo">
+    <div class="container">
+        <h2 class="mb-4 section-heading"> <span class="section-heading-upper p-2">{{ _('- Where to Go -') }}</span></h2>
+        <h4 class="mb-4"> <span class="section-heading-upper p-2">{{ _('Amazing Places to Visit') }}</span></h4>
+        <p class="mb-4 text-wrap p-6">{{ _('From pretty forest trails to beautiful glass-like lakes, check out the top experiences and things to do.') }}</p>
+        {% block whereToGo %}
+        {% include 'includes/' + lang_code + '/whereToGo.html' %}
+        {% endblock %}
+    </div>
+</section>
+
+{% block whatToDo %}
+{% include 'includes/' + lang_code + '/whatToDo.html' %}
+{% endblock %}
+
+
+{% if lang_code == 'sv' %}
+{% block video %}
+{% include 'includes/' + lang_code + '/video.html' %}
+{% endblock %}
+
+{% endif %}
+
+
+
+{% block whereToStay %}
+{% include 'includes/' + lang_code + '/whereToStay.html' %}
+{% endblock %}
+
+
+{% if lang_code == 'ko' %}
+{% block guide %}
+{% include 'includes/' + lang_code + '/guide.html' %}
+{% endblock %}
+{% endif %}
+
+
+{% block map %}
+{% include 'includes/' + lang_code + '/map.html' %}
+{% endblock %}
+
+<section class="page-section">
+    <div class="container">
+        <div class="background-container">
+            <img src="{{ url_for('static', filename='assets/img/killaloe.jpg') }}" class="background-img"
+                alt="{{ _('Background Image') }}">
+        </div>
+        <div class="content-container">
+            <div class="p-5 rounded">
+                <h2 class="mb-4"> <span class="section-heading-upper"><b>{{ _('What\'s on in Ireland\'s Hidden Heartlands') }}</b></span></h2>
+                <p class="col-md-4 mb-4 text-wrap p-2">{{ _('No matter what time of year you visit, you\'ll find there\'s fun events and great things on in this incredible region. - There\'s always something happening in Ireland\'s Hidden Heartlands.') }}<br><br><a href="https://www.discoverireland.ie/irelands-hidden-heartlands/events" class="btn btn-success" style="font-family: 'Raleway';">{{ _('Festivals & Events') }}</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if lang_code == 'sv' %}
+{% block follow %}
+{% include 'includes/' + lang_code + '/follow.html' %}
+{% endblock %}
+{% elif lang_code =='ko' %}
+{% block contact %}
+{% include 'includes/' + lang_code + '/contact.html' %}
+{% endblock %}
+{% endif %}
+
+
+<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+        class="fas fa-chevron-up"></i></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        $('#back-to-top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 200);
+            return false;
+        });
+    });
+</script>
+
+{% endblock %}
