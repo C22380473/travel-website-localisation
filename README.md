@@ -23,7 +23,7 @@ The content was sourced from [Discover Ireland](https://www.discoverireland.ie/i
 
 ## Instructions to Run the Project
 
-1. **Download the app folder from the repository. Create a new folder called website and move the app folder inside it. Then, open Terminal and navigate to the website directory**
+1. **Copy the app folder from the repository. Create a new folder called website and move the app folder inside it. Then, open Terminal and navigate to the website directory**
    ```bash
    cd website
 2. **Set Up a Virtual Environment**
